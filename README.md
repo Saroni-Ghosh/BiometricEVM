@@ -119,10 +119,9 @@ Install these from **Arduino IDE → Sketch → Include Library → Manage Libra
 ---
 
 ## 📸 Project Demo
-*(Insert photo or link to your circuit / demo video here)*  
 Example:  
-`![Circuit Image](circuit-diagram.png)`  
-`![Demo Video](https://drive.google.com/...)`
+`[Circuit Image]([https://drive.google.com/drive/folders/15nSHceNXgmi-vk92FfQEN-vr0WPQUHT_](url))`  
+`![Demo Video]([https://drive.google.com/drive/folders/15nSHceNXgmi-vk92FfQEN-vr0WPQUHT_)](url)`
 
 
 ---
