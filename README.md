@@ -119,11 +119,12 @@ Install these from **Arduino IDE → Sketch → Include Library → Manage Libra
 ---
 
 ##  Project Demo
-##  Circuit Image  
-[![View Circuit Image](https://drive.google.com/uc?export=view&id=15nSHceNXgmi-vk92FfQEN-vr0WPQUHT_)](https://drive.google.com/drive/folders/15nSHceNXgmi-vk92FfQEN-vr0WPQUHT_)
+##  Project Demo
+ [Click here to watch the demo video](https://github.com/Saroni-Ghosh/BiometricEVM/blob/main/EVM%20Machine%20with%20fingerprint%20authentication.mp4)
 
-##  Demo Video  
- [Click here to watch the demo video](https://drive.google.com/drive/folders/15nSHceNXgmi-vk92FfQEN-vr0WPQUHT_)
+##  Circuit Diagram
+[![View Circuit Diagram](https://github.com/Saroni-Ghosh/BiometricEVM/blob/main/EVM_Circuit.png)](https://github.com/Saroni-Ghosh/BiometricEVM/blob/main/EVM_Circuit.png)
+
 
 
 
