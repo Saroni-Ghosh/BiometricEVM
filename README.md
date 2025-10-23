@@ -1,7 +1,7 @@
 
-# 🗳️ Biometric-Based Electronic Voting Machine (EVM) using Arduino
+#  Biometric-Based Electronic Voting Machine (EVM) using Arduino
 
-## 📖 Project Overview
+##  Project Overview
 This project implements a **biometric-based electronic voting system** that enhances election transparency and voter authentication using **fingerprint verification**.  
 It ensures **secure, one-person-one-vote** principles by integrating **fingerprint sensors, an LCD display, LEDs, a buzzer, and EEPROM** with an **Arduino Uno**.
 
@@ -9,18 +9,18 @@ Voters and officers must authenticate their fingerprints before a vote can be ca
 
 ---
 
-## 🧠 Key Features
-- 🔐 **Biometric Authentication** – Fingerprint verification for both voter and officer.  
-- 🗳️ **Electronic Voting** – Cast votes for three parties using dedicated buttons.  
-- 💾 **EEPROM Integration** – Stores vote counts even after power is turned off.  
-- 💡 **LCD Display (I2C)** – Displays user instructions, verification results, and final vote tally.  
-- 🚨 **Buzzer and LED Alerts** – Provide audio-visual feedback for each action.  
-- 🧹 **Delete / Result Button** – Short press to show results; long press to clear vote data.  
-- ⚙️ **Two-Factor Security** – Officer + Voter fingerprint verification before voting.
+##  Key Features
+-  **Biometric Authentication** – Fingerprint verification for both voter and officer.  
+-  **Electronic Voting** – Cast votes for three parties using dedicated buttons.  
+-  **EEPROM Integration** – Stores vote counts even after power is turned off.  
+-  **LCD Display (I2C)** – Displays user instructions, verification results, and final vote tally.  
+-  **Buzzer and LED Alerts** – Provide audio-visual feedback for each action.  
+-  **Delete / Result Button** – Short press to show results; long press to clear vote data.  
+-  **Two-Factor Security** – Officer + Voter fingerprint verification before voting.
 
 ---
 
-## 🧩 Components Used
+##  Components Used
 | Component | Description | Arduino Pins |
 |------------|--------------|---------------|
 | **Arduino Uno** | Main microcontroller | — |
@@ -38,7 +38,7 @@ Voters and officers must authenticate their fingerprints before a vote can be ca
 
 ---
 
-## ⚙️ Circuit Summary
+##  Circuit Summary
 - **Dual Fingerprint Sensors**: Separate serial connections for voter and officer.
 - **LCD I2C Display**: Uses SDA/SCL pins (A4, A5) for communication.
 - **EEPROM**: Stores vote counts persistently.
@@ -47,7 +47,7 @@ Voters and officers must authenticate their fingerprints before a vote can be ca
 
 ---
 
-## 💻 Software Setup
+##  Software Setup
 
 ### 1. **Required Libraries**
 Install these from **Arduino IDE → Sketch → Include Library → Manage Libraries**:
@@ -67,7 +67,7 @@ Install these from **Arduino IDE → Sketch → Include Library → Manage Libra
 
 ---
 
-## 🧪 System Workflow
+##  System Workflow
 
 ### 1. **Enrollment Phase**
 - Press **Enroll (A0)** → Place and re-place the finger.  
@@ -102,7 +102,7 @@ Install these from **Arduino IDE → Sketch → Include Library → Manage Libra
 
 ---
 
-## 🔒 Security & Ethical Considerations
+##  Security & Ethical Considerations
 - Fingerprints are **stored locally** on sensors (not in cloud).  
 - Each fingerprint is **matched by unique ID**, preventing impersonation.  
 - **Officer + Voter** dual verification prevents vote duplication.  
@@ -110,7 +110,7 @@ Install these from **Arduino IDE → Sketch → Include Library → Manage Libra
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 - Add **GSM or Wi-Fi module** for remote result transmission  
 - Use **encrypted fingerprint storage**  
 - Implement **face recognition** for multimodal authentication  
@@ -118,25 +118,25 @@ Install these from **Arduino IDE → Sketch → Include Library → Manage Libra
 
 ---
 
-## 📸 Project Demo
-## 🖼️ Circuit Image  
+##  Project Demo
+##  Circuit Image  
 [![View Circuit Image](https://drive.google.com/uc?export=view&id=15nSHceNXgmi-vk92FfQEN-vr0WPQUHT_)](https://drive.google.com/drive/folders/15nSHceNXgmi-vk92FfQEN-vr0WPQUHT_)
 
-## 🎥 Demo Video  
-🎬 [Click here to watch the demo video](https://drive.google.com/drive/folders/15nSHceNXgmi-vk92FfQEN-vr0WPQUHT_)
+##  Demo Video  
+ [Click here to watch the demo video](https://drive.google.com/drive/folders/15nSHceNXgmi-vk92FfQEN-vr0WPQUHT_)
 
 
 
 ---
 
-## 📚 References
+##  References
 - [Adafruit Fingerprint Sensor Library Docs](https://github.com/adafruit/Adafruit-Fingerprint-Sensor-Library)  
 - [Arduino EEPROM Reference](https://www.arduino.cc/en/Reference/EEPROM)  
 - [LiquidCrystal_I2C Documentation](https://github.com/johnrickman/LiquidCrystal_I2C)  
 
 ---
 
-### 🏁 Final Note
+###  Final Note
 This project demonstrates how **biometric security can enhance electronic voting** by reducing fraud and ensuring trust.  
 A reliable and scalable version could transform the future of secure, paperless elections.
 
