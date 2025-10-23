@@ -119,9 +119,12 @@ Install these from **Arduino IDE → Sketch → Include Library → Manage Libra
 ---
 
 ## 📸 Project Demo
-Example:  
-`[Circuit Image]([https://drive.google.com/drive/folders/15nSHceNXgmi-vk92FfQEN-vr0WPQUHT_](url))`  
-`![Demo Video]([https://drive.google.com/drive/folders/15nSHceNXgmi-vk92FfQEN-vr0WPQUHT_)](url)`
+## 🖼️ Circuit Image  
+[![View Circuit Image](https://drive.google.com/uc?export=view&id=15nSHceNXgmi-vk92FfQEN-vr0WPQUHT_)](https://drive.google.com/drive/folders/15nSHceNXgmi-vk92FfQEN-vr0WPQUHT_)
+
+## 🎥 Demo Video  
+🎬 [Click here to watch the demo video](https://drive.google.com/drive/folders/15nSHceNXgmi-vk92FfQEN-vr0WPQUHT_)
+
 
 
 ---
